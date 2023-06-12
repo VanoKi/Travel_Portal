@@ -204,3 +204,18 @@ a {
 }
 
 /*3 steps end*/
+
+/*popular destinations*/
+
+.popular {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wall-wrap {
+  display: flex;
+  flex-direction: row;
+}
+
+/*end popular destinations*/
