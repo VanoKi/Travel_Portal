@@ -1,11 +1,13 @@
 :root {
   --color-white: #FFFFFF;
   --color-orange: #f2785c;
+  --color-dark-blue: #0D606F;
 }
 
 body {
   font-family: 'Aleo';
   max-width: 1440px;
+  background: gainsboro;
 }
 
 ul {
@@ -24,7 +26,7 @@ a {
 
 .container {
   margin: 0 auto;
-  max-width: 1150px;
+  max-width: 1200px;
   border: 2px solid #F2785C ;
 }
 
@@ -74,6 +76,17 @@ a {
 
 /*buttons end*/
 
+/*form*/
+.main-form {
+  width: 892px;
+  height: 95px;
+  left: 120px;
+  top: 416px;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 16px;
+}
+/*end form*/
+
 /*fonts*/
 
 .logo-title {
@@ -95,6 +108,7 @@ a {
 }
 
 .section-title {
+  margin: auto;
   font-family: 'Red Hat Text';
   font-style: normal;
   font-weight: 500;
@@ -111,4 +125,82 @@ a {
   color: var(--color-white);
 }
 
+.main-subtitle {
+  font-style: italic;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: var(--color-white)
+}
+
+.text-form {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: var(--color-orange)
+}
+
 /*fonts end*/
+
+
+/*header*/
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+}
+
+/*header ens*/
+
+/*3 steps*/
+
+.three-steps {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* justify-content: center; */
+
+}
+
+.items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.steps-subtitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: var(--color-dark-blue);
+}
+
+.icon-wrap {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  background: var(--color-orange);
+  border-radius: 16px;
+}
+
+.steps-icon {
+  display: block;
+  margin: auto auto;
+}
+
+/*3 steps end*/
