@@ -1,10 +1,11 @@
-html {
-  margin: 0 auto;
-  max-width: 1440px;
+:root {
+  --color-white: #FFFFFF;
+  --color-orange: #f2785c;
 }
 
 body {
   font-family: 'Aleo';
+  max-width: 1440px;
 }
 
 ul {
@@ -21,10 +22,13 @@ a {
   text-decoration: none;
 }
 
-/* .container {
+.container {
   margin: 0 auto;
-  max-width: 1440px;
-} */
+  max-width: 1150px;
+  border: 2px solid #F2785C ;
+}
+
+/*buttons*/
 
 .button {
   cursor: pointer;
@@ -35,11 +39,76 @@ a {
   color: #FFFFFF;
 }
 
+.button__login {
+  width: 103px;
+  height: 41px;
+  font-family: 'Red Hat Text';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: var(--color-white)
+}
+
+.button__start-plaining {
+  width: 228px;
+  height: 59px;
+  font-family: 'Red Hat Text';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: var(--color-white)
+}
+
+.button__arrow {
+  width: 228px;
+  height: 59px;
+  font-family: 'Red Hat Text';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: var(--color-white);
+}
+
+/*buttons end*/
+
+/*fonts*/
+
 .logo-title {
   font-family: 'Magra';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  color: var(--color-white);
+}
+
+.menu-item {
+  font-family: 'Red Hat Text';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: var(--color-white)
 }
 
 .section-title {
   font-family: 'Red Hat Text';
-
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 53px;
+  color: var(--color-orange);
 }
+
+.main-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 96px;
+  color: var(--color-white);
+}
+
+/*fonts end*/
