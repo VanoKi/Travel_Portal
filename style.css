@@ -218,4 +218,39 @@ a {
   flex-direction: row;
 }
 
+.wall {
+  border-radius: 16px;
+}
+
+.sign {
+  font-family: 'Red Hat Text';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 42px;
+  color: var(--color-white)
+}
+
 /*end popular destinations*/
+
+/*travel stories*/
+
+.section-stories {
+  display: flex;
+  flex-direction: column;
+}
+
+.story {
+  display: flex;
+  flex-direction: row;
+}
+
+.ico-stories {
+  width: 400px;
+  height: 250px;
+  /* background: url(robin-noguier-sydwCr54rf0-unsplash); */
+  filter: drop-shadow(0px 4px 4px #0D606F);
+  border-radius: 16px;
+}
+
+/*travel stories ens*/
