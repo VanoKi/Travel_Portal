@@ -141,6 +141,21 @@ a {
   color: var(--color-orange)
 }
 
+.stories-title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 42px;
+  color: var(--color-dark-blue);
+}
+
+.stories-subtitle {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: var(--color-dark-blue)
+}
+
 /*fonts end*/
 
 
@@ -159,6 +174,14 @@ a {
 }
 
 /*header ens*/
+
+/*explore*/
+
+.explore-section {
+  background:  url(assets/bg/bg_upper.png);
+}
+
+/*explore end*/
 
 /*3 steps*/
 
@@ -238,6 +261,9 @@ a {
 .section-stories {
   display: flex;
   flex-direction: column;
+  background: rgba(255, 255, 255, 0.7), url(assets/bg/bg_bottom.png);
+  /* background-color: rgba(255, 255, 255, 0.7); */
+  /* background-position: center center, top left; */
 }
 
 .story {
@@ -253,4 +279,4 @@ a {
   border-radius: 16px;
 }
 
-/*travel stories ens*/
+/*travel stories ends*/
